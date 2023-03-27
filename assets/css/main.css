@@ -2577,9 +2577,9 @@ input, select, textarea {
 		.image img {
 			border-radius: 0.25em;
 			display: block;
-			max-width: 100%;
+			max-width: 60%;
 			max-height: auto;
-			
+			object-fit: contain;
 		}
 
 		.image.left, .image.right {
